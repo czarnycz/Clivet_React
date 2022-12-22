@@ -1,0 +1,106 @@
+.custom-card-appointment-details-admin {
+    width: 700px;
+    max-width: 80%;
+    background-color: #ffffff;
+    border-radius: 0.322em;
+    margin-bottom: 15vh;
+    position: absolute;
+    top:15%;
+    left:5%;
+
+}
+
+.custom-card-appointment {
+    width: 700px;
+    max-width: 80%;
+    background-color: #ffffff;
+    border-radius: 0.322em;
+    margin-bottom: 15vh;
+    position: absolute;
+    top:15%;
+    left:5%;
+
+}
+
+
+.blank{
+    padding-top: 10vh;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.8em;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.card-subtitle {
+    font-weight: normal;
+    font-size: 0.9em;
+    text-align: left;
+    color: rgb(61, 57, 57);
+    margin-left: 3%;
+    padding-top: 15px;
+}
+.card-subtitle-pet {
+    font-weight: normal;
+    font-size: 0.9em;
+    text-align: left;
+    color: rgb(61, 57, 57);
+    margin-left: 3%;
+    padding-top: 0%;
+    
+  
+}
+
+.form-input-custom {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.background-appointment {
+    background: url('/public/strona.png') no-repeat center center;
+    height: auto;
+    align-content: center;
+    min-height: 89vh;
+    align-items: center;
+    background-size: 100% auto;
+    justify-content: left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+
+
+}
+
+.background-appointment-details-admin {
+    background: url('/public/strona.png') no-repeat center center;
+    height: auto;
+    align-content: center;
+    min-height: 89vh;
+    align-items: center;
+    background-size: 100% auto;
+    justify-content: left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.custom-appointment a {
+
+    color: white;
+    
+}
+    
+    .custom-appointment a:hover {
+        color:black;
+        transition-duration: 1s;
+    }
+    
+    .custom-card-appointment a:visited {
+        color:white;
+    }

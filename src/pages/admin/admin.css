@@ -1,0 +1,39 @@
+.background-admin {
+    background: url('/public/client.jpg') no-repeat center center;
+    height: auto;
+    align-content: center;
+    min-height: 89vh;
+    align-items: center;
+    background-size: 100% auto;
+    justify-content: left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.custom-card-admin a {
+
+color: white;
+
+}
+
+.custom-card-admin a:hover {
+    color:black;
+    transition-duration: 1s;
+}
+
+.custom-card-admin a:visited {
+    color:white;
+}
+
+.custom-card-admin {
+    width: 550px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 0.322em;
+    margin-bottom: 10vh;
+    position: absolute;
+    top:20%;
+    left:5%;
+
+}

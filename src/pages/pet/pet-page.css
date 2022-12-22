@@ -1,0 +1,48 @@
+.background-pet-admin {
+    background: url('/public/pet-admin-details.jpg') no-repeat center center;
+    height: auto;
+    align-content: center;
+    min-height: 89vh;
+    align-items: center;
+    background-size: 100% auto;
+    justify-content: left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+.custom-card-pet-admin {
+    width: 650px;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 0.322em;
+    margin-bottom: 10vh;
+    position: absolute;
+    top:20%;
+    left:5%;
+
+}
+
+.button-custom {
+    margin-right: auto;
+    margin-left: 55%;
+    
+}
+
+.custom-card-pet a {
+
+    color: white;
+    
+    }
+    
+    .custom-card-pet a:hover {
+        color:black;
+        transition-duration: 1s;
+    }
+    
+    .custom-card-pet a:visited {
+        color:white;
+    }

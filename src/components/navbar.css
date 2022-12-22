@@ -1,0 +1,23 @@
+.nav-item-li-text {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 1.2rem;
+}
+.navbar-custom {
+    background: #2286e3;
+    font-weight: bold;
+}
+
+.custom-nav-link {
+    padding-left: 50px;
+    padding-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+
+.custom-nav-link a:hover {
+    color: white;
+
+}
