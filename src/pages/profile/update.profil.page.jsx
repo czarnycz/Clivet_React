@@ -80,7 +80,7 @@ const UpdateProfilPage = () => {
                             <div className="invalid-feedback">Username is required</div>
                         </div>
 
-                        <div className="form-group">
+                        {/* <div className="form-group">
                             <label htmlFor="password">Password:</label>
                             <input type="password" name="password" className="form-control form-input-custom"
                                 placeholder="Password"
@@ -88,7 +88,7 @@ const UpdateProfilPage = () => {
                                 onChange={(e) => handleChange(e)}
                                 required />
                             <div className="invalid-feedback">Password is required</div>
-                        </div>
+                        </div> */}
 
                         <div className="form-group">
                             <label htmlFor="email">E-mail:</label>
@@ -105,13 +105,12 @@ const UpdateProfilPage = () => {
                             <input type="text" name="firstName" className="form-control form-input-custom"
                                 placeholder="First name"
                                 value={user.firstName}
-                                onChange={(e) => handleChange(e)}
-                                required />
+                                disabled />
                             <div className="invalid-feedback">First name is required</div>
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="lastName">First name:</label>
+                            <label htmlFor="lastName">Last name:</label>
                             <input type="text" name="lastName" className="form-control form-input-custom"
                                 placeholder="Last name"
                                 value={user.lastName}
