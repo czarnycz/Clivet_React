@@ -85,7 +85,7 @@ const AddPetPage = () => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="weight">Weight</label>
+                            <label htmlFor="weight">Weight [Kg]:</label>
                             <input type="number" min="0" name="weight" className="form-control form-input-custom"
                                    placeholder="Weight"
                                    value={pet.weight}

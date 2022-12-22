@@ -64,7 +64,7 @@ const PetPage = () => {
                                         <tr>
                                             <th scope="col">#</th>
                                             <th scope="col">Pet name</th>
-                                            <th scope="col">Pet age</th>
+                                            <th scope="col">Pet age </th>
                                             <th scope="col">Pet details</th>
                                             <th scope="col">Delete</th>
                                         </tr>

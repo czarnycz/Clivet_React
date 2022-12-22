@@ -79,7 +79,7 @@ const AppointmentListPage = () => {
               <p className="card-subtitle-pet pt-2">
                 <b>Pet Age:</b> {pet.age}
                 <br />
-                <b>Pet Weight:</b> {pet.weight}
+                <b>Pet Weight [Kg]:</b> {pet.weight}
               </p>
             </span>
             <div className="col-12 button-custom pt-3">
@@ -110,7 +110,7 @@ const AppointmentListPage = () => {
                     <tr>
                       <th scope="col">#</th>
                       <th scope="col">Appointment Date</th>
-                      <th scope="col">Appointment cost</th>
+                      <th scope="col">Appointment cost [PLN]</th>
                       <th scope="col">Appointment Details</th>
                       <th scope="col">Delete Appointment</th>
                     </tr>

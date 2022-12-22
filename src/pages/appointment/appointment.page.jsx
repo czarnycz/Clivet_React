@@ -99,7 +99,7 @@ const AppointmentPage = () => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="cost">Cost Visit :</label>
+                            <label htmlFor="cost">Cost Visit [PLN] :</label>
                             <input type="number" placeholder="Cost" min="0" step="20" name="cost" className="form-control form-input-custom"
                                 value={appointment.cost}
                                 onChange={(e) => handleChange(e)}

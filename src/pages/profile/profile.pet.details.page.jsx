@@ -43,7 +43,7 @@ const ProfilePetDetails = () => {
             </div>
           </div>
           <span ><p className="card-subtitle-pet pt-2"><b>Pet Age:</b> {pet.age}<br />
-            <b>Pet Weight:</b> {pet.weight}</p></span>
+            <b>Pet Weight [Kg]:</b> {pet.weight}</p></span>
           <div></div>
           <div className="card-body">
           {appointmentList[0]?.id && <div> <table className="table table-striped custom-profile">
@@ -51,7 +51,7 @@ const ProfilePetDetails = () => {
                 <tr>
                   <th scope="col">#</th>
                   <th scope="col">Appointment Date</th>
-                  <th scope="col">Appointment cost</th>
+                  <th scope="col">Appointment cost [PLN]</th>
                   <th scope="col">Appointment Details</th>
                 </tr>
               </thead>
@@ -60,7 +60,7 @@ const ProfilePetDetails = () => {
                   <tr key={item.id}>
                     <th scope="row">{ind + 1}</th>
                     <td>{item.date}</td>
-                    <td>{item.cost}</td>
+                    <td>{item.cost} </td>
                     <td>
                       <NavLink
                         to={`/profile/appointments/${item.id}`}

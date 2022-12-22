@@ -94,7 +94,7 @@ const UpdatePetPage = () => {
             </div>
 
             <div className="form-group">
-              <label htmlFor="weight">Weight</label>
+              <label htmlFor="weight">Weight [Kg]:</label>
               <input
                 type="weight"
                 name="weight"

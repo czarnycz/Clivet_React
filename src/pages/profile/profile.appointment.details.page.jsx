@@ -48,7 +48,7 @@ const ProfileAppointmentDetails = () => {
                       <th scope="col">Date</th>
                       <th scope="col">Medicine</th>
                       <th scope="col">Description</th>
-                      <th scope="col">Cost</th>
+                      <th scope="col">Cost[PLN]</th>
                     </tr>
                   </thead>
                   <tbody>
